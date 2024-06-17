@@ -1,7 +1,0 @@
-- 👋 Hi, I’m May - @May-beBoy
-- 👀 I’m interested in Graphics, Games and Animation
-- 🌱 I’m currently learning WEB development and java with Processing library 
-- 💞️ I’m looking to collaborate on games and animations projects
-- 📫 How to reach me: You cam reach in my <strong>ig/x: @maybe_a_boy or my email: andreluizvaladao@gmail.com</strong>
-- 😄 Pronouns: any
-- ⚡ Fun fact: I'm brazilian and currently studying animation on UFMG✨
