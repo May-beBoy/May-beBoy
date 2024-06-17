@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>React</title>
+    <script src="https://unpkg.com/react@latest/umd/react.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+  function Hello(props) {
+     return React.createElement('h1', null, `Hello ${props.text}`);
+  }
+  ReactDOM.render(
+    React.createElement(Hello, {text: 'World'}, null),
+    document.getElementById('root')
+  );
+  </script>
+</body>
+</html>

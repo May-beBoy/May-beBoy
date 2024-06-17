@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Gerando Boleto</title>
+    <link rel="icon" href="favicon.png"/>
+</head>
+<body>
+    <h1>Gerando Boleto</h1>
+    <p>Informe os dados para a geração do boleto</p>
+    <fieldset>
+    <legend>Dados do Boleto</legend>
+    <form method="POST" action="mostra_boleto.html" target="frame">
+    <label for="txt_sacado"><u>S</u>acado:</label>
+    <input type="text" id="txt_sacado" name="txt_sacado" autofocus="true"
+           required="true" tabindex="1" accesskey="S" maxlength="50"
+           placeholder="Digite o nome do Sacado">
+    <br> 
+    <label for="txt_valor"><u>V</u>alor:</label>
+    <input type="text" id="txt_valor" name="txt_valor"
+           maxlength="20" required="true" tabindex="2" 
+           accesskey="V" placeholder="Digite o valor do boleto">
+    <br>
+    <label for="txt_vencto">V<u>e</u>ncimento</label>
+    <input type="text" id="txt_vencto" name="txt_vencto" 
+           maxlength="20" required="true" tabindex="3"
+           accesskey="E" placeholder="Digite o vencimento do boleto">
+    <br>
+    <input type="submit" value="Gerar Boleto">
+    <input type="reset" value="Limpar">
+    </form>
+    <iframe name="frame" src="" width="100%" height="340"></iframe>
+    </fieldset>    
+</body>
+</html>

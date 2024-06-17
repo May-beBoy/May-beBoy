@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Consulta de CEP</title>
+    <link rel="icon" href="favicon.png"/>
+</head>
+<body>
+    <h1>Consulta de CEP</h1>
+    <p>Informe abaixo o CEP desejado:</p>    
+    <fieldset>
+    <legend>Dados de Localização</legend>
+    <form method="post" action="consulta_cep.html" target="frame">
+        <label for="txt_cep"><u>C</u>EP:</label>
+        <input type="text" id="txt_cep" name="txt_cep" autofocus="true" 
+               required="true" maxlength="15" tabindex="1" accesskey="C"
+               placeholder="Digite seu CEP">
+        <input type="submit" value="Pesquisar">
+    </form>
+    <iframe name="frame" border="0" src="" width="100%" height="130"></iframe>
+    </fieldset>
+</body>
+</html>
